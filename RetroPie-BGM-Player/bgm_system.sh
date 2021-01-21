@@ -8,6 +8,7 @@
 #Description	:	This script contain all functions needed by BGM.
 #Usage			:	It should be called from other scripts using arguments.
 #Author       	:	Luis Torres aka Naprosnia
+#Updater	:	Eric Ceisel aka Exarkuniv
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
