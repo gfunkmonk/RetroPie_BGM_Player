@@ -1,6 +1,6 @@
 
 [alsa]
-mixer-element=PCM
+mixer-element=HDMI
 
 [audacious]
 repeat=TRUE
