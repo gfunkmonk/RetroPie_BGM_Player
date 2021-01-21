@@ -60,7 +60,7 @@ Playstation Audio | .psf / .psf2
 [![RetroPie BGM Player](https://img.youtube.com/vi/CP-Kz6OAueM/0.jpg)](https://www.youtube.com/watch?v=CP-Kz6OAueM)
 
 ## Uninstall
-1. `wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/uninstall.sh`
+1. `wget -N https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/master/uninstall.sh`
 2. `chmod +x uninstall.sh`
 3. `./uninstall.sh`
 
