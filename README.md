@@ -1,6 +1,6 @@
-# RetroPie BGM Player v2.0
+# RetroPie BGM Player v2.1
 UPDATE
-I pulled this from  Naprosnia who is the one who wrote this. all i did was fix it with the help from thesickkness who posted the fix to make the fade work again
+I forked this from Naprosnia who is the one who wrote this. All i did was fix it with the help from thesickkness who posted the fix to make the fade work again
 Im just the one who is going to do my best to maintain this
 
 A simple background music player with emulation support, to implement on RetroPie and Emulation Station based on [this](https://retropie.org.uk/forum/topic/9133/quick-and-easy-guide-for-adding-music-to-emulatonstation-on-retropie-noob-friendly) guide from RetroPie forum.
