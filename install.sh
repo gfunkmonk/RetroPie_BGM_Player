@@ -2,15 +2,17 @@
 #####################################################################
 #Project		:	RetroPie_BGM_Player
 #Version		:	2.1
-#Git			:	https://github.com/Exarkuniv/RetroPie_BGM_Player
+#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	install.sh
-#Date			:	20190227	(YYYYMMDD)
+#Date			:	20190227	(YYYYMMDD) 
+#Updated	:	2-3-2021
 #Description	:	The installation script.
 #Usage			:	wget -N https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/master/install.sh
 #				:	chmod +x install.sh
 #				:	bash install.sh
 #Author       	:	Luis Torres aka Naprosnia
+#Updater	:	Eric Ceisel aka Exarkuniv
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
