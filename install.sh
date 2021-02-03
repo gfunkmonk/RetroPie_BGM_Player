@@ -138,7 +138,7 @@ function gitdownloader(){
 	unset files[last_id]
 
 	for i in "${files[@]}"; do
-		wget -N -q --show-progress "https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Playerv2/$BGMGITBRANCH$path/$i"
+		wget -N -q --show-progress "https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Playerv2/"
 		#chmod a+rwx "$i"
 	done
 }
