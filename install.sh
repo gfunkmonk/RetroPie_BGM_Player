@@ -7,7 +7,7 @@
 #Script Name	:	install.sh
 #Date			:	20190227	(YYYYMMDD)
 #Description	:	The installation script.
-#Usage			:	wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/install.sh
+#Usage			:	wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Playerv2/master/install.sh
 #				:	chmod +x install.sh
 #				:	bash install.sh
 #Author       	:	Luis Torres aka Naprosnia
@@ -138,7 +138,7 @@ function gitdownloader(){
 	unset files[last_id]
 
 	for i in "${files[@]}"; do
-		wget -N -q --show-progress "https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/$BGMGITBRANCH$path/$i"
+		wget -N -q --show-progress "https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Playerv2/$BGMGITBRANCH$path/$i"
 		#chmod a+rwx "$i"
 	done
 }
