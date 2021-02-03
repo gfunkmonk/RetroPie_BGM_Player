@@ -5,6 +5,7 @@
 #####################################################################
 #Script Name	:	bgm_system.sh
 #Date			:	20190227	(YYYYMMDD)
+#update			: 2-3-2021
 #Description	:	This script contain all functions needed by BGM.
 #Usage			:	It should be called from other scripts using arguments.
 #Author       	:	Luis Torres aka Naprosnia
