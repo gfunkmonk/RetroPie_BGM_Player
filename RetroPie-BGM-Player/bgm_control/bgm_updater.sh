@@ -19,8 +19,8 @@ BGMSETTINGS="$BGM/bgm_settings.ini"
 source $BGMSETTINGS >/dev/null 2>&1
 source $VERSION >/dev/null 2>&1
 
-GITVERSION="https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/$bgm_gitbranch/RetroPie-BGM-Player/version.sh"
-GITINSTALL="https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/$bgm_gitbranch/install.sh"
+GITVERSION="https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/$bgm_gitbranch/RetroPie-BGM-Player/version.sh"
+GITINSTALL="https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/$bgm_gitbranch/install.sh"
 
 bgm_curversion=$bgm_version
 bgm_curdate=$bgm_date
