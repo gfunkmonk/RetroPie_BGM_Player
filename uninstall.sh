@@ -5,11 +5,13 @@
 #####################################################################
 #Script Name	:	uninstall.sh
 #Date			:	20190227	(YYYYMMDD)
+#update   : 2-3-2021
 #Description	:	The removal script.
 #Usage			:	wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/uninstall.sh
 #				:	chmod +x uninstall.sh
 #				:	bash uninstall.sh
 #Author       	:	Luis Torres aka Naprosnia
+#Updater	:	Eric Ceisel aka Exarkuniv
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
