@@ -1,2 +1,2 @@
-bgm_version="2.1"
-bgm_date="2021/02/27"
+bgm_version="2.2"
+bgm_date="2024/11/04"

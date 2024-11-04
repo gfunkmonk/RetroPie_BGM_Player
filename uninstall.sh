@@ -7,7 +7,7 @@
 #Date			:	20190227	(YYYYMMDD)
 #update   : 2-3-2021
 #Description	:	The removal script.
-#Usage			:	wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/uninstall.sh
+#Usage			:	wget -N https://raw.githubusercontent.com/gfunkmonk/RetroPie_BGM_Player/master/uninstall.sh
 #				:	chmod +x uninstall.sh
 #				:	bash uninstall.sh
 #Author       	:	Luis Torres aka Naprosnia

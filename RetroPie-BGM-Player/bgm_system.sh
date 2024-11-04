@@ -76,7 +76,7 @@ AUDSETTINGS="$AUD/config"
 
 MUSICPLAYER="audacious"
 
-mp3files=("mp3")
+mp3files=("mp3" "ogg")
 emufiles=("ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
 
 
@@ -98,6 +98,11 @@ VOLUMESTEP=
 function bgm_init(){
 
 	# if script called from autostart.sh, wait for omxplayer (splashscreen) to end
+	if [ "$1" == "--autostart" ]; then
+		while pgrep mpv >/dev/null; do sleep 1; done
+		reloadaudiofiles
+		sleep $bgm_delay
+	fi
 	if [ "$1" == "--autostart" ]; then
 		while pgrep omxplayer >/dev/null; do sleep 1; done
 		reloadaudiofiles

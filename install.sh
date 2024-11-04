@@ -5,10 +5,10 @@
 #Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	install.sh
-#Date			:	20190227	(YYYYMMDD) 
-#Updated	:	2-3-2021
+#Date			:	20241104	(YYYYMMDD) 
+#Updated	:	11-4-2024
 #Description	:	The installation script.
-#Usage			:	wget -N https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/master/install.sh
+#Usage			:	wget -N https://raw.githubusercontent.com/gfunkmonk/RetroPie_BGM_Player/master/install.sh
 #				:	chmod +x install.sh
 #				:	bash install.sh
 #Author       	:	Luis Torres aka Naprosnia
@@ -139,7 +139,7 @@ function gitdownloader(){
 	unset files[last_id]
 
 	for i in "${files[@]}"; do
-		wget -N -q --show-progress "https://raw.githubusercontent.com/Exarkuniv/RetroPie_BGM_Player/$BGMGITBRANCH$path/$i"
+		wget -N -q --show-progress "https://raw.githubusercontent.com/gfunkmonk/RetroPie_BGM_Player/$BGMGITBRANCH$path/$i"
 		#chmod a+rwx "$i"
 	done
 }
