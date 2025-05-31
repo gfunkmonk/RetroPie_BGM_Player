@@ -85,7 +85,7 @@ source $BGMSETTINGS >/dev/null 2>&1
 # end of settings area
 
 # ALSA related vars
-readonly CHANNEL="HDMI"
+readonly CHANNEL="MASTER"
 # get current volume
 CHANNELVOLUME=$(amixer -M get $CHANNEL | grep -o "...%]")
 CHANNELVOLUME=${CHANNELVOLUME//[^[:alnum:].]/}

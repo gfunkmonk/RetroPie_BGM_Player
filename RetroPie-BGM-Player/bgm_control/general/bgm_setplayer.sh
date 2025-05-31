@@ -23,7 +23,7 @@ function description() {
 infobox=
 infobox="${infobox}___________________________________________________________________________\n\n"
 infobox="${infobox}RetroPie BGM Player Player Select\n\n"
-infobox="${infobox}Set BGM Player. MP3 or Emulated .\n"
+infobox="${infobox}Set BGM Player. Music or Game Audio Files .\n"
 infobox="${infobox}___________________________________________________________________________\n\n"
 
 dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "BGM Player Select Description" --msgbox "${infobox}" 0 0
@@ -44,8 +44,8 @@ function main_menu() {
         choice=$(dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "Player Select" \
             --ok-label "Select" --cancel-label "Back" --no-tags --default-item "$bgm_player" \
             --menu "Select your Player" 25 75 20 \
-            "mp3" "1 [$mp3] MP3 Player" \
-			"emu" "2 [$emu] Game Music Emulator" \
+            "mp3" "1 [$mp3] Music Files Player" \
+			"emu" "2 [$emu] Game Audio Files Player" \
 			"both" "3 [$both] Both Players" \
 			"custom" "4 [$custom] Custom File Types" \
             2>&1 > /dev/tty)

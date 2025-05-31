@@ -26,9 +26,9 @@ function main_menu() {
         choice=$(dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "General Settings" \
             --ok-label "Select" --cancel-label "Back" --no-tags \
             --menu "Settings" 25 75 20 \
-			"bgm_setplayer" "1 Player" \
-			"bgm_setvolume" "2 Volume" \
-			"bgm_settoggle" "3 Toggle" \
+			"bgm_setplayer" "1 Player Settings" \
+			"bgm_setvolume" "2 Volume Settings" \
+			"bgm_settoggle" "3 Toggle Settings" \
             2>&1 > /dev/tty)
 		
 		opt=$?

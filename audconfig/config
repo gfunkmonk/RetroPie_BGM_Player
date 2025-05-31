@@ -1,6 +1,6 @@
 
 [alsa]
-mixer-element=HDMI
+mixer-element=MASTER
 
 [audacious]
 repeat=TRUE

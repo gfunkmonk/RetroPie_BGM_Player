@@ -29,9 +29,9 @@ function main_menu() {
             --ok-label "Select" --cancel-label "Exit" --no-tags \
             --menu "Settings" 25 75 20 \
 			"$BGMCONTROLGENERAL/bgm_general" "1 General Settings" \
-			"$BGMCONTROLPLAY/bgm_play" "2 Play Settings" \
-			"$BGMCONTROLPLAYER/bgm_player" "3 Player Stuff" \
-			"$BGMCONTROL/bgm_updater" "4 Update" \
+			"$BGMCONTROLPLAY/bgm_play" "2 Playback Settings" \
+			"$BGMCONTROLPLAYER/bgm_player" "3 Player Options" \
+			"$BGMCONTROL/bgm_updater" "4 Update BGM" \
             2>&1 > /dev/tty)
 		
 		opt=$?
