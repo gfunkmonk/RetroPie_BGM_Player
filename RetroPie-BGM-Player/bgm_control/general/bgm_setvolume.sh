@@ -39,9 +39,9 @@ function main_menu() {
             --ok-label "Select" --cancel-label "Back" --no-tags --default-item "$bgm_volume"\
             --menu "Set volume level" 25 75 20 \
             100 "1 Volume 100%" \
-            90 "2 Volume 90%" \
+            90 "2 Volume 90% (Default)" \
             80 "3 Volume 80%" \
-            70 "4 Volume 70%"  (Default) \
+            70 "4 Volume 70%" \
             60 "5 Volume 60%" \
             50 "6 Volume 50%" \
             40 "7 Volume 40%" \

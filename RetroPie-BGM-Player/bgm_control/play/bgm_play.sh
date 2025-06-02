@@ -28,7 +28,7 @@ function main_menu() {
             --menu "Settings" 25 75 20 \
 			"bgm_setfade" "1 Fade Effect" \
 			"bgm_setnonstop" "2 Non-Stop" \
-			"bgm_setdelay" "3 Delayed Start" \
+			"bgm_setdelay" "3 Delay Start" \
             2>&1 > /dev/tty)
 		
 		opt=$?
