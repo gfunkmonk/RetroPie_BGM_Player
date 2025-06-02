@@ -117,7 +117,7 @@ sleep 1
 ## Install BGM Player ##
 ########################
 
-echo -e " ${LRED}[${NC}${LGREEN} Installing RetroPie BGM Player v2.1 ${NC}${LRED}]${NC}"
+echo -e " ${LRED}[${NC}${LGREEN} Installing RetroPie BGM Player v2.2 ${NC}${LRED}]${NC}"
 sleep 1
 
 echo -e " ${LRED}-${NC}${WHITE} Change some permissions...${NC}"
