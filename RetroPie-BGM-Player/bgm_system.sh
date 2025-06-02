@@ -5,7 +5,7 @@
 #####################################################################
 #Script Name	:	bgm_system.sh
 #Date			:	20190227	(YYYYMMDD)
-#update			: 2-3-2021
+#update			: 6-2-2025
 #Description	:	This script contain all functions needed by BGM.
 #Usage			:	It should be called from other scripts using arguments.
 #Author       	:	Luis Torres aka Naprosnia
@@ -76,7 +76,7 @@ AUDSETTINGS="$AUD/config"
 
 MUSICPLAYER="audacious"
 
-mp3files=("mp3" "ogg")
+mp3files=("mp3" "ogg" "flac" "aac")
 emufiles=("ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
 
 
@@ -85,7 +85,7 @@ source $BGMSETTINGS >/dev/null 2>&1
 # end of settings area
 
 # ALSA related vars
-readonly CHANNEL="MASTER"
+readonly CHANNEL="PCM"
 # get current volume
 CHANNELVOLUME=$(amixer -M get $CHANNEL | grep -o "...%]")
 CHANNELVOLUME=${CHANNELVOLUME//[^[:alnum:].]/}

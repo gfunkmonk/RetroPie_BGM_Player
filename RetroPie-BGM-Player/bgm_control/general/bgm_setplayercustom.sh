@@ -16,7 +16,7 @@ BGM="$HOME/RetroPie-BGM-Player"
 BGMSETTINGS="$BGM/bgm_settings.ini"
 VERSION="$BGM/version.sh"
 source $VERSION >/dev/null 2>&1
-filetypes=("mp3" "ogg" "ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
+filetypes=("mp3" "ogg" "flac" "aac" "ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
 
 function main_menu() {
     local choice
@@ -34,6 +34,8 @@ function main_menu() {
             --menu "Select your Player" 25 75 20 \
             "mp3" " [$ft_mp3] MP3" \
             "ogg" " [$ft_ogg] OGG" \
+            "flac" " [$ft_flac] FLAC" \
+            "aac" " [$ft_aac] AAC" \
 			"ay" " [$ft_ay] Spectrum ZX (.ay)" \
 			"gbs" " [$ft_gbs] GameBoy (.gbs)" \
 			"gym" " [$ft_gym] Sega Genesis (.gym)" \

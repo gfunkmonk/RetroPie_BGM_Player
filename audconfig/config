@@ -1,6 +1,6 @@
 
 [alsa]
-mixer-element=MASTER
+mixer-element=PCM
 
 [audacious]
 repeat=TRUE

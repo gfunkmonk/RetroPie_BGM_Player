@@ -1,4 +1,4 @@
-# RetroPie BGM Player v2.1
+# RetroPie BGM Player v2.2
 UPDATE
 I forked this from Naprosnia who is the one who wrote this. All i did was fix it with the help from thesickkness who posted the fix to make the fade work again
 Im just the one who is going to do my best to maintain this
@@ -21,7 +21,7 @@ A simple background music player with emulation support, to implement on RetroPi
 ## Supported File Types
 Emulator / Name | Extension
 :---: | :---:
-MPEG-2 Audio Layer III | .mp3
+MPEG-2 Audio Layer III | .mp3 .ogg .flac .aac
 Spectrum ZX | .ay
 Sega Genesis / Megadrive | .gym
 NEC PC Engine / TurboGrafx-16 | .hes

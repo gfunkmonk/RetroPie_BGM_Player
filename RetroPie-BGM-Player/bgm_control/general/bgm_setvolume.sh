@@ -41,7 +41,7 @@ function main_menu() {
             100 "1 Volume 100%" \
             90 "2 Volume 90%" \
             80 "3 Volume 80%" \
-            70 "4 Volume 70%" \
+            70 "4 Volume 70%"  (Default) \
             60 "5 Volume 60%" \
             50 "6 Volume 50%" \
             40 "7 Volume 40%" \
